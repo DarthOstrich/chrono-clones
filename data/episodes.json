@@ -1,0 +1,978 @@
+[
+  {
+    "chron_num": 1,
+    "season": 2,
+    "episode_num": 16,
+    "name": "Cat and Mouse",
+    "link": "https://www.netflix.com/watch/70262906",
+    "netflix_id": 70262906
+  },
+  {
+    "chron_num": 2,
+    "season": 1,
+    "episode_num": 16,
+    "name": "Hidden Enemy",
+    "link": "https://www.netflix.com/watch/70262884",
+    "netflix_id": 70262884
+  },
+  {
+    "chron_num": 3,
+    "season": "Movie",
+    "episode_num": 0,
+    "name": "The Clone Wars - Movie",
+    "link": "https://www.netflix.com/watch/70098333",
+    "netflix_id": 70098333
+  },
+  {
+    "chron_num": 4,
+    "season": 3,
+    "episode_num": 1,
+    "name": "Clone Cadets",
+    "link": "https://www.netflix.com/watch/70262913",
+    "netflix_id": 70262913
+  },
+  {
+    "chron_num": 5,
+    "season": 3,
+    "episode_num": 3,
+    "name": "Supply Lines",
+    "link": "https://www.netflix.com/watch/70262915",
+    "netflix_id": 70262915
+  },
+  {
+    "chron_num": 6,
+    "season": 1,
+    "episode_num": 1,
+    "name": "Ambush",
+    "link": "https://www.netflix.com/watch/70262869",
+    "netflix_id": 70262869
+  },
+  {
+    "chron_num": 7,
+    "season": 1,
+    "episode_num": 2,
+    "name": "Rising Malevolence",
+    "link": "https://www.netflix.com/watch/70262870",
+    "netflix_id": 70262870
+  },
+  {
+    "chron_num": 8,
+    "season": 1,
+    "episode_num": 3,
+    "name": "Shadow of Malevolence",
+    "link": "https://www.netflix.com/watch/70262871",
+    "netflix_id": 70262871
+  },
+  {
+    "chron_num": 9,
+    "season": 1,
+    "episode_num": 4,
+    "name": "Destroy Malevolence",
+    "link": "https://www.netflix.com/watch/70262872",
+    "netflix_id": 70262872
+  },
+  {
+    "chron_num": 10,
+    "season": 1,
+    "episode_num": 5,
+    "name": "Rookies",
+    "link": "https://www.netflix.com/watch/70262873",
+    "netflix_id": 70262873
+  },
+  {
+    "chron_num": 11,
+    "season": 1,
+    "episode_num": 6,
+    "name": "Downfall of a Droid",
+    "link": "https://www.netflix.com/watch/70262874",
+    "netflix_id": 70262874
+  },
+  {
+    "chron_num": 12,
+    "season": 1,
+    "episode_num": 7,
+    "name": "Duel of the Droids",
+    "link": "https://www.netflix.com/watch/70262875",
+    "netflix_id": 70262875
+  },
+  {
+    "chron_num": 13,
+    "season": 1,
+    "episode_num": 8,
+    "name": "Bombad Jedi",
+    "link": "https://www.netflix.com/watch/70262876",
+    "netflix_id": 70262876
+  },
+  {
+    "chron_num": 14,
+    "season": 1,
+    "episode_num": 9,
+    "name": "Cloak of Darkness",
+    "link": "https://www.netflix.com/watch/70262877",
+    "netflix_id": 70262877
+  },
+  {
+    "chron_num": 15,
+    "season": 1,
+    "episode_num": 10,
+    "name": "Lair of Grievous",
+    "link": "https://www.netflix.com/watch/70262878",
+    "netflix_id": 70262878
+  },
+  {
+    "chron_num": 16,
+    "season": 1,
+    "episode_num": 11,
+    "name": "Dooku Captured",
+    "link": "https://www.netflix.com/watch/70262879",
+    "netflix_id": 70262879
+  },
+  {
+    "chron_num": 17,
+    "season": 1,
+    "episode_num": 12,
+    "name": "The Gungan General",
+    "link": "https://www.netflix.com/watch/70262880",
+    "netflix_id": 70262880
+  },
+  {
+    "chron_num": 18,
+    "season": 1,
+    "episode_num": 13,
+    "name": "Jedi Crash",
+    "link": "https://www.netflix.com/watch/70262881",
+    "netflix_id": 70262881
+  },
+  {
+    "chron_num": 19,
+    "season": 1,
+    "episode_num": 14,
+    "name": "Defenders of Peace",
+    "link": "https://www.netflix.com/watch/70262882",
+    "netflix_id": 70262882
+  },
+  {
+    "chron_num": 20,
+    "season": 1,
+    "episode_num": 15,
+    "name": "Trespass",
+    "link": "https://www.netflix.com/watch/70262883",
+    "netflix_id": 70262883
+  },
+  {
+    "chron_num": 21,
+    "season": 1,
+    "episode_num": 17,
+    "name": "Blue Shadow Virus",
+    "link": "https://www.netflix.com/watch/70262885",
+    "netflix_id": 70262885
+  },
+  {
+    "chron_num": 22,
+    "season": 1,
+    "episode_num": 18,
+    "name": "Mystery of the Thousand Moons",
+    "link": "https://www.netflix.com/watch/70262886",
+    "netflix_id": 70262886
+  },
+  {
+    "chron_num": 23,
+    "season": 1,
+    "episode_num": 19,
+    "name": "Storm Over Ryloth",
+    "link": "https://www.netflix.com/watch/70262887",
+    "netflix_id": 70262887
+  },
+  {
+    "chron_num": 24,
+    "season": 1,
+    "episode_num": 20,
+    "name": "Innocents of Ryloth",
+    "link": "https://www.netflix.com/watch/70262888",
+    "netflix_id": 70262888
+  },
+  {
+    "chron_num": 25,
+    "season": 1,
+    "episode_num": 21,
+    "name": "Liberty on Ryloth",
+    "link": "https://www.netflix.com/watch/70262889",
+    "netflix_id": 70262889
+  },
+  {
+    "chron_num": 26,
+    "season": 2,
+    "episode_num": 1,
+    "name": "Holocron Heist",
+    "link": "https://www.netflix.com/watch/70262891",
+    "netflix_id": 70262891
+  },
+  {
+    "chron_num": 27,
+    "season": 2,
+    "episode_num": 2,
+    "name": "Cargo of Doom",
+    "link": "https://www.netflix.com/watch/70262892",
+    "netflix_id": 70262892
+  },
+  {
+    "chron_num": 28,
+    "season": 2,
+    "episode_num": 3,
+    "name": "Children of the Force",
+    "link": "https://www.netflix.com/watch/70262893",
+    "netflix_id": 70262893
+  },
+  {
+    "chron_num": 29,
+    "season": 2,
+    "episode_num": 17,
+    "name": "Bounty Hunters",
+    "link": "https://www.netflix.com/watch/70262907",
+    "netflix_id": 70262907
+  },
+  {
+    "chron_num": 30,
+    "season": 2,
+    "episode_num": 18,
+    "name": "The Zillo Beast",
+    "link": "https://www.netflix.com/watch/70262908",
+    "netflix_id": 70262908
+  },
+  {
+    "chron_num": 31,
+    "season": 2,
+    "episode_num": 19,
+    "name": "The Zillo Beast Strikes Back",
+    "link": "https://www.netflix.com/watch/70262909",
+    "netflix_id": 70262909
+  },
+  {
+    "chron_num": 32,
+    "season": 2,
+    "episode_num": 4,
+    "name": "Senate Spy",
+    "link": "https://www.netflix.com/watch/70262894",
+    "netflix_id": 70262894
+  },
+  {
+    "chron_num": 33,
+    "season": 2,
+    "episode_num": 5,
+    "name": "Landing at Point Rain",
+    "link": "https://www.netflix.com/watch/70262895",
+    "netflix_id": 70262895
+  },
+  {
+    "chron_num": 34,
+    "season": 2,
+    "episode_num": 6,
+    "name": "Weapons Factory",
+    "link": "https://www.netflix.com/watch/70262896",
+    "netflix_id": 70262896
+  },
+  {
+    "chron_num": 35,
+    "season": 2,
+    "episode_num": 7,
+    "name": "Legacy of Terror",
+    "link": "https://www.netflix.com/watch/70262897",
+    "netflix_id": 70262897
+  },
+  {
+    "chron_num": 36,
+    "season": 2,
+    "episode_num": 8,
+    "name": "Brain Invaders",
+    "link": "https://www.netflix.com/watch/70262898",
+    "netflix_id": 70262898
+  },
+  {
+    "chron_num": 37,
+    "season": 2,
+    "episode_num": 9,
+    "name": "Grievous Intrigue",
+    "link": "https://www.netflix.com/watch/70262899",
+    "netflix_id": 70262899
+  },
+  {
+    "chron_num": 38,
+    "season": 2,
+    "episode_num": 10,
+    "name": "The Deserter",
+    "link": "https://www.netflix.com/watch/70262900",
+    "netflix_id": 70262900
+  },
+  {
+    "chron_num": 39,
+    "season": 2,
+    "episode_num": 11,
+    "name": "Lightsaber Lost",
+    "link": "https://www.netflix.com/watch/70262901",
+    "netflix_id": 70262901
+  },
+  {
+    "chron_num": 40,
+    "season": 2,
+    "episode_num": 12,
+    "name": "The Mandalore Plot",
+    "link": "https://www.netflix.com/watch/70262902",
+    "netflix_id": 70262902
+  },
+  {
+    "chron_num": 41,
+    "season": 2,
+    "episode_num": 13,
+    "name": "Voyage of Temptation",
+    "link": "https://www.netflix.com/watch/70262903",
+    "netflix_id": 70262903
+  },
+  {
+    "chron_num": 42,
+    "season": 2,
+    "episode_num": 14,
+    "name": "Duchess of Mandalore",
+    "link": "https://www.netflix.com/watch/70262904",
+    "netflix_id": 70262904
+  },
+  {
+    "chron_num": 43,
+    "season": 2,
+    "episode_num": 20,
+    "name": "Death Trap",
+    "link": "https://www.netflix.com/watch/70262910",
+    "netflix_id": 70262910
+  },
+  {
+    "chron_num": 44,
+    "season": 2,
+    "episode_num": 21,
+    "name": "R2 Come Home",
+    "link": "https://www.netflix.com/watch/70262911",
+    "netflix_id": 70262911
+  },
+  {
+    "chron_num": 45,
+    "season": 2,
+    "episode_num": 22,
+    "name": "Lethal Trackdown",
+    "link": "https://www.netflix.com/watch/70262912",
+    "netflix_id": 70262912
+  },
+  {
+    "chron_num": 46,
+    "season": 3,
+    "episode_num": 5,
+    "name": "Corruption",
+    "link": "https://www.netflix.com/watch/70262917",
+    "netflix_id": 70262917
+  },
+  {
+    "chron_num": 47,
+    "season": 3,
+    "episode_num": 6,
+    "name": "The Academy",
+    "link": "https://www.netflix.com/watch/70262918",
+    "netflix_id": 70262918
+  },
+  {
+    "chron_num": 48,
+    "season": 3,
+    "episode_num": 7,
+    "name": "Assassin",
+    "link": "https://www.netflix.com/watch/70262919",
+    "netflix_id": 70262919
+  },
+  {
+    "chron_num": 49,
+    "season": 3,
+    "episode_num": 2,
+    "name": "ARC Troopers",
+    "link": "https://www.netflix.com/watch/70262914",
+    "netflix_id": 70262914
+  },
+  {
+    "chron_num": 50,
+    "season": 3,
+    "episode_num": 4,
+    "name": "Sphere of Influence",
+    "link": "https://www.netflix.com/watch/70262916",
+    "netflix_id": 70262916
+  },
+  {
+    "chron_num": 51,
+    "season": 3,
+    "episode_num": 8,
+    "name": "Evil Plans",
+    "link": "https://www.netflix.com/watch/70262920",
+    "netflix_id": 70262920
+  },
+  {
+    "chron_num": 52,
+    "season": 1,
+    "episode_num": 22,
+    "name": "Hostage Crisis",
+    "link": "https://www.netflix.com/watch/70262890",
+    "netflix_id": 70262890
+  },
+  {
+    "chron_num": 53,
+    "season": 3,
+    "episode_num": 9,
+    "name": "Hunt for Ziro",
+    "link": "https://www.netflix.com/watch/70262921",
+    "netflix_id": 70262921
+  },
+  {
+    "chron_num": 54,
+    "season": 3,
+    "episode_num": 10,
+    "name": "Heroes on Both Side",
+    "link": "https://www.netflix.com/watch/70262922",
+    "netflix_id": 70262922
+  },
+  {
+    "chron_num": 55,
+    "season": 3,
+    "episode_num": 11,
+    "name": "Pursuit of Peace",
+    "link": "https://www.netflix.com/watch/70262923",
+    "netflix_id": 70262923
+  },
+  {
+    "chron_num": 56,
+    "season": 2,
+    "episode_num": 15,
+    "name": "Senate Murders",
+    "link": "https://www.netflix.com/watch/70262905",
+    "netflix_id": 70262905
+  },
+  {
+    "chron_num": 57,
+    "season": 3,
+    "episode_num": 12,
+    "name": "Nightsisters",
+    "link": "https://www.netflix.com/watch/70262924",
+    "netflix_id": 70262924
+  },
+  {
+    "chron_num": 58,
+    "season": 3,
+    "episode_num": 13,
+    "name": "Monster",
+    "link": "https://www.netflix.com/watch/70262925",
+    "netflix_id": 70262925
+  },
+  {
+    "chron_num": 59,
+    "season": 3,
+    "episode_num": 14,
+    "name": "Witches of the Mist",
+    "link": "https://www.netflix.com/watch/70262926",
+    "netflix_id": 70262926
+  },
+  {
+    "chron_num": 60,
+    "season": 3,
+    "episode_num": 15,
+    "name": "Overlords",
+    "link": "https://www.netflix.com/watch/70262927",
+    "netflix_id": 70262927
+  },
+  {
+    "chron_num": 61,
+    "season": 3,
+    "episode_num": 16,
+    "name": "Altar of Mortis",
+    "link": "https://www.netflix.com/watch/70262928",
+    "netflix_id": 70262928
+  },
+  {
+    "chron_num": 62,
+    "season": 3,
+    "episode_num": 17,
+    "name": "Ghosts of Mortis",
+    "link": "https://www.netflix.com/watch/70262929",
+    "netflix_id": 70262929
+  },
+  {
+    "chron_num": 63,
+    "season": 3,
+    "episode_num": 18,
+    "name": "The Citadel",
+    "link": "https://www.netflix.com/watch/70262930",
+    "netflix_id": 70262930
+  },
+  {
+    "chron_num": 64,
+    "season": 3,
+    "episode_num": 19,
+    "name": "Counter Attack",
+    "link": "https://www.netflix.com/watch/70262931",
+    "netflix_id": 70262931
+  },
+  {
+    "chron_num": 65,
+    "season": 3,
+    "episode_num": 20,
+    "name": "Citadel Rescue",
+    "link": "https://www.netflix.com/watch/70262932",
+    "netflix_id": 70262932
+  },
+  {
+    "chron_num": 66,
+    "season": 3,
+    "episode_num": 21,
+    "name": "Padawan Lost",
+    "link": "https://www.netflix.com/watch/70262933",
+    "netflix_id": 70262933
+  },
+  {
+    "chron_num": 67,
+    "season": 3,
+    "episode_num": 22,
+    "name": "Wookie Hunt",
+    "link": "https://www.netflix.com/watch/70262934",
+    "netflix_id": 70262934
+  },
+  {
+    "chron_num": 68,
+    "season": 4,
+    "episode_num": 1,
+    "name": "Water War",
+    "link": "https://www.netflix.com/watch/70262935",
+    "netflix_id": 70262935
+  },
+  {
+    "chron_num": 69,
+    "season": 4,
+    "episode_num": 2,
+    "name": "Gungan Attack",
+    "link": "https://www.netflix.com/watch/70262936",
+    "netflix_id": 70262936
+  },
+  {
+    "chron_num": 70,
+    "season": 4,
+    "episode_num": 3,
+    "name": "Prisoners",
+    "link": "https://www.netflix.com/watch/70262937",
+    "netflix_id": 70262937
+  },
+  {
+    "chron_num": 71,
+    "season": 4,
+    "episode_num": 4,
+    "name": "Shadow Warrior",
+    "link": "https://www.netflix.com/watch/70262938",
+    "netflix_id": 70262938
+  },
+  {
+    "chron_num": 72,
+    "season": 4,
+    "episode_num": 5,
+    "name": "Mercy Mission",
+    "link": "https://www.netflix.com/watch/70262939",
+    "netflix_id": 70262939
+  },
+  {
+    "chron_num": 73,
+    "season": 4,
+    "episode_num": 6,
+    "name": "Nomad Droids",
+    "link": "https://www.netflix.com/watch/70262940",
+    "netflix_id": 70262940
+  },
+  {
+    "chron_num": 74,
+    "season": 4,
+    "episode_num": 7,
+    "name": "Darkness on Umbra",
+    "link": "https://www.netflix.com/watch/70262941",
+    "netflix_id": 70262941
+  },
+  {
+    "chron_num": 75,
+    "season": 4,
+    "episode_num": 8,
+    "name": "The General",
+    "link": "https://www.netflix.com/watch/70262942",
+    "netflix_id": 70262942
+  },
+  {
+    "chron_num": 76,
+    "season": 4,
+    "episode_num": 9,
+    "name": "Plan of Dissent",
+    "link": "https://www.netflix.com/watch/70262943",
+    "netflix_id": 70262943
+  },
+  {
+    "chron_num": 77,
+    "season": 4,
+    "episode_num": 10,
+    "name": "Carnage of Krell",
+    "link": "https://www.netflix.com/watch/70262944",
+    "netflix_id": 70262944
+  },
+  {
+    "chron_num": 78,
+    "season": 4,
+    "episode_num": 11,
+    "name": "Kidnapped",
+    "link": "https://www.netflix.com/watch/70262945",
+    "netflix_id": 70262945
+  },
+  {
+    "chron_num": 79,
+    "season": 4,
+    "episode_num": 12,
+    "name": "Slaves of the Republic",
+    "link": "https://www.netflix.com/watch/70262946",
+    "netflix_id": 70262946
+  },
+  {
+    "chron_num": 80,
+    "season": 4,
+    "episode_num": 13,
+    "name": "Escape from Kadavo",
+    "link": "https://www.netflix.com/watch/70262947",
+    "netflix_id": 70262947
+  },
+  {
+    "chron_num": 81,
+    "season": 4,
+    "episode_num": 14,
+    "name": "A Friend in Need",
+    "link": "https://www.netflix.com/watch/70262948",
+    "netflix_id": 70262948
+  },
+  {
+    "chron_num": 82,
+    "season": 4,
+    "episode_num": 15,
+    "name": "Deception",
+    "link": "https://www.netflix.com/watch/70262949",
+    "netflix_id": 70262949
+  },
+  {
+    "chron_num": 83,
+    "season": 4,
+    "episode_num": 16,
+    "name": "Friends and Enemies",
+    "link": "https://www.netflix.com/watch/70262950",
+    "netflix_id": 70262950
+  },
+  {
+    "chron_num": 84,
+    "season": 4,
+    "episode_num": 17,
+    "name": "The Box",
+    "link": "https://www.netflix.com/watch/70262951",
+    "netflix_id": 70262951
+  },
+  {
+    "chron_num": 85,
+    "season": 4,
+    "episode_num": 18,
+    "name": "Crisis on Naboo",
+    "link": "https://www.netflix.com/watch/70262952",
+    "netflix_id": 70262952
+  },
+  {
+    "chron_num": 86,
+    "season": 4,
+    "episode_num": 19,
+    "name": "Massacre",
+    "link": "https://www.netflix.com/watch/70262953",
+    "netflix_id": 70262953
+  },
+  {
+    "chron_num": 87,
+    "season": 4,
+    "episode_num": 20,
+    "name": "Bounty",
+    "link": "https://www.netflix.com/watch/70262954",
+    "netflix_id": 70262954
+  },
+  {
+    "chron_num": 88,
+    "season": 4,
+    "episode_num": 21,
+    "name": "Brothers",
+    "link": "https://www.netflix.com/watch/70262955",
+    "netflix_id": 70262955
+  },
+  {
+    "chron_num": 89,
+    "season": 4,
+    "episode_num": 22,
+    "name": "Revenge",
+    "link": "https://www.netflix.com/watch/70262956",
+    "netflix_id": 70262956
+  },
+  {
+    "chron_num": 90,
+    "season": 5,
+    "episode_num": 2,
+    "name": "A War on Two Fronts",
+    "link": "https://www.netflix.com/watch/70300630",
+    "netflix_id": 70300630
+  },
+  {
+    "chron_num": 91,
+    "season": 5,
+    "episode_num": 3,
+    "name": "Front Runners",
+    "link": "https://www.netflix.com/watch/70300631",
+    "netflix_id": 70300631
+  },
+  {
+    "chron_num": 92,
+    "season": 5,
+    "episode_num": 4,
+    "name": "The Soft War",
+    "link": "https://www.netflix.com/watch/70300632",
+    "netflix_id": 70300632
+  },
+  {
+    "chron_num": 93,
+    "season": 5,
+    "episode_num": 5,
+    "name": "Tipping Points",
+    "link": "https://www.netflix.com/watch/70300633",
+    "netflix_id": 70300633
+  },
+  {
+    "chron_num": 94,
+    "season": 5,
+    "episode_num": 6,
+    "name": "The Gathering",
+    "link": "https://www.netflix.com/watch/70300634",
+    "netflix_id": 70300634
+  },
+  {
+    "chron_num": 95,
+    "season": 5,
+    "episode_num": 7,
+    "name": "A Test of Strenght",
+    "link": "https://www.netflix.com/watch/70300635",
+    "netflix_id": 70300635
+  },
+  {
+    "chron_num": 96,
+    "season": 5,
+    "episode_num": 8,
+    "name": "Bound for Rescue",
+    "link": "https://www.netflix.com/watch/70300636",
+    "netflix_id": 70300636
+  },
+  {
+    "chron_num": 97,
+    "season": 5,
+    "episode_num": 9,
+    "name": "A Necessary Bond",
+    "link": "https://www.netflix.com/watch/70300637",
+    "netflix_id": 70300637
+  },
+  {
+    "chron_num": 98,
+    "season": 5,
+    "episode_num": 10,
+    "name": "Secret Weapons",
+    "link": "https://www.netflix.com/watch/70300638",
+    "netflix_id": 70300638
+  },
+  {
+    "chron_num": 99,
+    "season": 5,
+    "episode_num": 11,
+    "name": "A Sunny Day in the Void",
+    "link": "https://www.netflix.com/watch/70300639",
+    "netflix_id": 70300639
+  },
+  {
+    "chron_num": 100,
+    "season": 5,
+    "episode_num": 12,
+    "name": "Missing in Action",
+    "link": "https://www.netflix.com/watch/70300640",
+    "netflix_id": 70300640
+  },
+  {
+    "chron_num": 101,
+    "season": 5,
+    "episode_num": 13,
+    "name": "Point of No Return",
+    "link": "https://www.netflix.com/watch/70300641",
+    "netflix_id": 70300641
+  },
+  {
+    "chron_num": 102,
+    "season": 5,
+    "episode_num": 1,
+    "name": "Revival",
+    "link": "https://www.netflix.com/watch/70300629",
+    "netflix_id": 70300629
+  },
+  {
+    "chron_num": 103,
+    "season": 5,
+    "episode_num": 14,
+    "name": "Eminence",
+    "link": "https://www.netflix.com/watch/70300642",
+    "netflix_id": 70300642
+  },
+  {
+    "chron_num": 104,
+    "season": 5,
+    "episode_num": 15,
+    "name": "Shades of Reason",
+    "link": "https://www.netflix.com/watch/70300643",
+    "netflix_id": 70300643
+  },
+  {
+    "chron_num": 105,
+    "season": 5,
+    "episode_num": 16,
+    "name": "The Lawless",
+    "link": "https://www.netflix.com/watch/70300644",
+    "netflix_id": 70300644
+  },
+  {
+    "chron_num": 106,
+    "season": 5,
+    "episode_num": 17,
+    "name": "Sabotage",
+    "link": "https://www.netflix.com/watch/70300645",
+    "netflix_id": 70300645
+  },
+  {
+    "chron_num": 107,
+    "season": 5,
+    "episode_num": 18,
+    "name": "The Jedi Who Knew Too Much",
+    "link": "https://www.netflix.com/watch/70300646",
+    "netflix_id": 70300646
+  },
+  {
+    "chron_num": 108,
+    "season": 5,
+    "episode_num": 19,
+    "name": "To Catch a Jedi",
+    "link": "https://www.netflix.com/watch/70300647",
+    "netflix_id": 70300647
+  },
+  {
+    "chron_num": 109,
+    "season": 5,
+    "episode_num": 20,
+    "name": "The Wrong Jedi",
+    "link": "https://www.netflix.com/watch/70300648",
+    "netflix_id": 70300648
+  },
+  {
+    "chron_num": 110,
+    "season": 6,
+    "episode_num": 1,
+    "name": "The Unknown",
+    "link": "https://www.netflix.com/watch/70301328",
+    "netflix_id": 70301328
+  },
+  {
+    "chron_num": 111,
+    "season": 6,
+    "episode_num": 2,
+    "name": "Conspiracy",
+    "link": "https://www.netflix.com/watch/70301329",
+    "netflix_id": 70301329
+  },
+  {
+    "chron_num": 112,
+    "season": 6,
+    "episode_num": 3,
+    "name": "Fugitive",
+    "link": "https://www.netflix.com/watch/70301330",
+    "netflix_id": 70301330
+  },
+  {
+    "chron_num": 113,
+    "season": 6,
+    "episode_num": 4,
+    "name": "Orders",
+    "link": "https://www.netflix.com/watch/70301331",
+    "netflix_id": 70301331
+  },
+  {
+    "chron_num": 114,
+    "season": 6,
+    "episode_num": 5,
+    "name": "An Old Friend",
+    "link": "https://www.netflix.com/watch/70301332",
+    "netflix_id": 70301332
+  },
+  {
+    "chron_num": 115,
+    "season": 6,
+    "episode_num": 6,
+    "name": "The Rise of Clovis",
+    "link": "https://www.netflix.com/watch/70301333",
+    "netflix_id": 70301333
+  },
+  {
+    "chron_num": 116,
+    "season": 6,
+    "episode_num": 7,
+    "name": "Crisis at the Heart",
+    "link": "https://www.netflix.com/watch/70301334",
+    "netflix_id": 70301334
+  },
+  {
+    "chron_num": 117,
+    "season": 6,
+    "episode_num": 8,
+    "name": "The Disappeared Part I",
+    "link": "https://www.netflix.com/watch/70301335",
+    "netflix_id": 70301335
+  },
+  {
+    "chron_num": 118,
+    "season": 6,
+    "episode_num": 9,
+    "name": "The Disappeared Part II",
+    "link": "https://www.netflix.com/watch/70301336",
+    "netflix_id": 70301336
+  },
+  {
+    "chron_num": 119,
+    "season": 6,
+    "episode_num": 10,
+    "name": "The Lost One",
+    "link": "https://www.netflix.com/watch/70301337",
+    "netflix_id": 70301337
+  },
+  {
+    "chron_num": 120,
+    "season": 6,
+    "episode_num": 11,
+    "name": "Voices",
+    "link": "https://www.netflix.com/watch/70301338",
+    "netflix_id": 70301338
+  },
+  {
+    "chron_num": 121,
+    "season": 6,
+    "episode_num": 12,
+    "name": "Destiny",
+    "link": "https://www.netflix.com/watch/70301339",
+    "netflix_id": 70301339
+  },
+  {
+    "chron_num": 122,
+    "season": 6,
+    "episode_num": 13,
+    "name": "Sacrifice",
+    "link": "https://www.netflix.com/watch/70301340",
+    "netflix_id": 70301340
+  }
+]

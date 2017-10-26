@@ -1,0 +1,98 @@
+body {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background: #111;
+  color: #f2f2f2;
+}
+h1,h2,h3,h4, p {
+  margin: 0;
+}
+header {
+  position: relative;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: goldenrod;
+}
+h2 {
+  margin-bottom: 0.5rem;
+}
+p {
+  margin-bottom: 0.5rem;
+
+}
+.content {
+  margin: 1rem auto 0 auto;
+  max-width: 1366px;
+  width: 100%;
+}
+.watched {
+  background: #1387a5;
+  transition: background 500ms linear;
+}
+.unwatched {
+  background: #a51313;
+  transition: background 500ms linear;  
+}
+li {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  margin-bottom: 10px;
+  color: #d0d0d0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li h1 {
+  flex-basis: 10%;
+  color: goldenrod;
+}
+li span:nth-of-type(1) {
+  flex-basis: 10%;
+}
+li span:nth-of-type(3) {
+  flex-basis: 10%;
+}
+li span:nth-of-type(2) {
+  flex-basis: 80%;
+}
+li span:nth-of-type(2) {
+  /* text-align: right; */
+}
+li a {
+  /* flex-basis: 20%; */
+  text-align: right;
+}
+form input[type="checkbox"] {
+  display: none;
+}
+button {
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  color: goldenrod;
+  background: #111;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.legend {
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: right;
+}
+.legend p {
+  padding: 2px 5px;
+  margin: 0;
+}
+.legend p span {
+  padding: 5px;
+}
