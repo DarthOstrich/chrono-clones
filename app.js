@@ -1,51 +1,24 @@
-const express = require('express'); // Express is the main routing porting of this app. It does all sorts of stuff
+const express = require('express'); // Node framework
 const path = require('path'); // The path module provides utilities for working with file and directory paths. It's part of Node proper.
-const routes = require('./routes/index'); //bringing in our routes
+const session = require('express-session');
 const passport = require('passport'); // used for authentication
-var Strategy = require('passport-facebook').Strategy; // needed to provide the facebook strategy for login
-
-// Configure the Facebook strategy for use by Passport.
-//
-// OAuth 2.0-based strategies require a `verify` function which receives the
-// credential (`accessToken`) for accessing the Facebook API on the user's
-// behalf, along with the user's profile.  The function must invoke `cb`
-// with a user object, which will be set at `req.user` in route handlers after
-// authentication.
-passport.use(new Strategy({
-  clientID: process.env.FACEBOOK_APP_ID,
-  clientSecret: process.env.FACEBOOK_APP_SECRET,
-  callbackURL: 'http://localhost:7777/login/facebook/return'
-},
-function(accessToken, refreshToken, profile, cb) {
-  // In this example, the user's Facebook profile is supplied as the user
-  // record.  In a production-quality application, the Facebook profile should
-  // be associated with a user record in the application's database, which
-  // allows for account linking and authentication with other identity
-  // providers.
-  return cb(null, profile);
-}));
-
-
-// Configure Passport authenticated session persistence.
-//
-// In order to restore authentication state across HTTP requests, Passport needs
-// to serialize users into and deserialize users out of the session.  In a
-// production-quality application, this would typically be as simple as
-// supplying the user ID when serializing, and querying the user record by ID
-// from the database when deserializing.  However, due to the fact that this
-// example does not have a database, the complete Facebook profile is serialized
-// and deserialized.
-passport.serializeUser(function(user, cb) {
-  cb(null, user);
-});
-
-passport.deserializeUser(function(obj, cb) {
-  cb(null, obj);
-});
-
+const mongoose = require('mongoose'); //handles mongoDB stuff
+const MongoStore = require('connect-mongo')(session);
+const flash = require('connect-flash'); // allows flash messages
+const morgan = require('morgan'); // renders requests to the server
+const cookieParser = require('cookie-parser');
+const bodyParser = require('body-parser');
+const expressValidator = require('express-validator');
+const errorHandlers = require('./handlers/errorHandlers'); // handles all our errors
+const helmet = require('helmet'); // best practice security protocals 
+const routes = require('./routes/index'); //bringing in our routes
+require('./handlers/passport');
 
 // create our Express app
 const app = express();
+
+// lock it DOOOOWWWNNN
+app.use(helmet());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views')); // this is the folder where we keep our pug files
@@ -54,15 +27,48 @@ app.set('view engine', 'pug'); // we use the engine pug, mustache or EJS work gr
 // serves up static files from the public folder. Anything in public/ will just be served up as the file it is
 app.use(express.static(path.join(__dirname, 'public')));
 
+// log every request to the console
+app.use(morgan('dev')); 
+
+// Takes the raw requests and turns them into usable properties on req.body
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// Exposes a bunch of methods for validating data. Used heavily on userController.validateRegister
+app.use(expressValidator());
+
+// populates req.cookies with any cookies that came along with the request
+app.use(cookieParser());
+
+// Sessions allow us to store data on visitors from request to request
+// This keeps users logged in and allows us to send flash messages
+app.use(session({
+  secret: process.env.SECRET,
+  key: process.env.KEY,
+  resave: false,
+  saveUninitialized: false,
+  store: new MongoStore({ mongooseConnection: mongoose.connection }) //used to store sessions in the MongoDB database
+}));
+
 // Initialize Passport and restore authentication state, if any, from the
 // session.
 app.use(passport.initialize());
-app.use(passport.session());
+app.use(passport.session()); // persistent login sessions
+
+// // The flash middleware let's us use req.flash('error', 'Shit!'), which will then pass that message to the next page the user requests
+app.use(flash()); // use connect-flash for flash messages stored in session
+
+// pass variables to our templates + all requests
+app.use((req, res, next) => {
+  // res.locals.h = helpers;
+  res.locals.flashes = req.flash();
+  res.locals.user = req.user || null;
+  res.locals.currentPath = req.path;
+  next();
+});
 
 // Use the routes!
 app.use('/', routes);
-
-
 
 // done! we export it so we can start the site in start.js
 module.exports = app;

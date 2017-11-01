@@ -4,19 +4,14 @@
 Application built to make tracking what episodes of Clone Wars in Chronological order you've watched.
 
 # Needed to work
-variables.env
-```
-NODE_ENV=development
-FACEBOOK_APP_ID=123459
-FACEBOOK_APP_SECRET=1234598
-```
+variables.env file, see variables.env.sample file
 
 ## Todo 
-* Add login authentication
-* add login/logout page
-* add /login /logout route
-* add mongo database
-* add mongoose schemas
+* build API to pull out episode data/update data
+* Update episode info logic
+* facebook auth
+* Add Helmet
+* Deploy
 
 User schema
   email
@@ -25,7 +20,7 @@ User schema
 
 
 Episode Schema (120 entries per user)
-  user_id: int
+  userID: int
   chron_num: int,
   watched: boolean
 

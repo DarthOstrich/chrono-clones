@@ -6,7 +6,7 @@ block content
     span.legend
       p.watched Watched
       p.unwatched Unwatched
-  ul
+  ul#episode-list
     each episode in episodes
       li(class="episode" class=episode.watched && 'watched' class=!episode.watched && 'unwatched' id=`episode-${episode.chron_num}`)
         span
@@ -14,15 +14,10 @@ block content
         span
           h2 #{episode.name} 
           p Season: #{episode.season} Episode Number: #{episode.episode_num}
-          form(action="post" class="form" id=`form-${episode.chron_num}`)
-            //- label(for="watched") watched
-            input(type="checkbox" name="watched" class="form__check" checked=episode.watched && 'checked')
-            button(type="submit") Change Progress
+          button( 
+          id=`progress-${episode.chron_num}` 
+          type="submit") Change Progress
         span
           a(href=`https://www.netflix.com/watch/${episode.netflix_id}` target="_blank")
-              button watch
-      //- if !episode.watched
-      //-   li.not-watched
-      //-     h1 #{episode.chron_num} - #{episode.name} 
-      //-     p Season: #{episode.season} Episode Number: #{episode.episode_num} Episode Name: #{episode.name} 
-      //-       a(href=`${episode.link}` target="_blank") Link
+            button(id=`watch-${episode.chron_num}`) watch
+  script(src="/dist/App.bundle.js")
