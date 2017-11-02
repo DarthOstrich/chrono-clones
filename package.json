@@ -33,7 +33,7 @@
     "start": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
     "watch": "nodemon ./start.js --ignore public/",
     "assets": "webpack -w --display-max-modules 0",
-    "prod": "node ./start.js"
+    "prod": "node ./bin/www"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
