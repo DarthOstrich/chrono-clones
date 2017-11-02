@@ -11,7 +11,7 @@ const bodyParser = require('body-parser');
 const expressValidator = require('express-validator');
 const errorHandlers = require('./handlers/errorHandlers'); // handles all our errors
 const helmet = require('helmet'); // best practice security protocals 
-const routes = require('./routes/index'); //bringing in our routes
+const routes = require('./routes.js'); //bringing in our routes
 require('./handlers/passport');
 
 // create our Express app

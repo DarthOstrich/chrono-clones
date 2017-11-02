@@ -32,10 +32,10 @@
     "validator": "^9.1.1"
   },
   "scripts": {
-    "start": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
+    "dev": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
     "watch": "nodemon ./start.js --ignore public/",
     "assets": "webpack -w --display-max-modules 0",
-    "prod": "node ./bin/www"
+    "start": "node ./start.js"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
