@@ -12,10 +12,31 @@ const { catchErrors } = require('../handlers/errorHandlers');
 const episodeController = require('../controllers/episodeController');
 // console.log('grabbing user controller');
 const userController = require('../controllers/userController');
-console.log('grabbing auth controller');
+// console.log('grabbing auth controller');
 // console.log(require('./../controllers/authController'));
-const { login, logout, isLoggedIn } = require('../controllers/authController');
-// const authController = require('./../controllers/authController');
+// const { login, logout, isLoggedIn } = require('../controllers/authController');
+const authController = require('./../controllers/AuthController');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Routing for the home page
 router.get('/', function (req, res) {
