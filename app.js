@@ -1,3 +1,4 @@
+console.log('running app.js');
 const express = require('express'); // Node framework
 const path = require('path'); // The path module provides utilities for working with file and directory paths. It's part of Node proper.
 const session = require('express-session');
@@ -67,6 +68,7 @@ app.use((req, res, next) => {
   next();
 });
 
+console.log('running the routes');
 // Use the routes!
 app.use('/', routes);
 

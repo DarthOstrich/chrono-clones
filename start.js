@@ -1,3 +1,5 @@
+console.log('loading start.js');
+
 // require('./db-connection');
 const mongoose = require('mongoose');
 
@@ -17,10 +19,12 @@ mongoose.connection.on('error', (err) => {
 });
 
 // import models
+console.log('importing models');
 require('./models/User');
 require('./models/Progress');
 
 // Start our app!
+console.log('running the app');
 const app = require('./app');
 app.set('port', process.env.PORT || 7777);
 const server = app.listen(app.get('port'), () => {

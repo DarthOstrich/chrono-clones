@@ -1,13 +1,15 @@
+console.log('running routes.js');
 const express = require('express');
 const router = express.Router();
 const mergeJSON = require('merge-json');
 const passport = require('passport');
 
+console.log('running middleware');
 // Middleware
-const authController = require('./../controllers/authController');
-const episodeController = require('./../controllers/episodeController');
-const userController = require('./../controllers/userController');
-const { catchErrors } = require('./../handlers/errorHandlers');
+const authController = require('../controllers/authController');
+const episodeController = require('../controllers/episodeController');
+const userController = require('../controllers/userController');
+const { catchErrors } = require('../handlers/errorHandlers');
 
 // Routing for the home page
 router.get('/', function (req, res) {
