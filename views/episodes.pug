@@ -3,21 +3,20 @@ extends layout
 block content
   header
     h1 Episodes
-    span.legend
-      p.watched Watched
-      p.unwatched Unwatched
-  ul#episode-list
+    span.badge.watched Watched
+    span.badge.unwatched Unwatched
+  div.container#episode-list
     each episode in episodes
-      li(class="episode" class=episode.watched && 'watched' class=!episode.watched && 'unwatched' id=`episode-${episode.chron_num}`)
-        span
+      div(class="episode row align-items-center" class=episode.watched && 'watched' class=!episode.watched && 'unwatched' id=`episode-${episode.chron_num}`)
+        div.col
           h1 #{episode.chron_num}
-        span
+        div.col-8
           h2 #{episode.name} 
           p Season: #{episode.season} Episode Number: #{episode.episode_num}
-          button( 
+          button(
+          class="btn btn-primary" 
           id=`progress-${episode.chron_num}` 
           type="submit") Change Progress
-        span
+        div.col
           a(href=`https://www.netflix.com/watch/${episode.netflix_id}` target="_blank")
-            button(id=`watch-${episode.chron_num}`) watch
-  script(src="/dist/App.bundle.js")
+            button(class="btn btn-primary" id=`watch-${episode.chron_num}`) watch

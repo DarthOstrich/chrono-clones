@@ -1,34 +1,49 @@
-body {
-  box-sizing: border-box;
-  font-family: sans-serif;
-  background: #f2f2f2;
-  color: #111;
-}
-h1,h2,h3,h4, p {
-  margin: 0;
+$white: #f2f2f2;
+// body {
+//   box-sizing: border-box;
+//   font-family: sans-serif;
+//   background: #f2f2f2;
+//   color: #111;
+// }
+// h1,h2,h3,h4, p {
+//   margin: 0;
+// }
+// header {
+//   position: relative;
+// }
+h1 {
+  // text-align: center;
+  // margin-bottom: 1rem;
+  // text-transform: uppercase;
+  // font-weight: bold;
+  color: goldenrod;
 }
 header {
   position: relative;
 }
-h1 {
-  text-align: center;
-  margin-bottom: 1rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: goldenrod;
+.badge {
+  color: $white;
+  position: absolute;
+  right: 0;
+  &.watched {
+    top: 0;
+  }
+  &.unwatched {
+    top: 22px;
+  }
 }
-h2 {
-  margin-bottom: 0.5rem;
-}
-p {
-  margin-bottom: 0.5rem;
+// h2 {
+//   margin-bottom: 0.5rem;
+// }
+// p {
+//   margin-bottom: 0.5rem;
 
-}
-.content {
-  margin: 1rem auto 0 auto;
-  max-width: 1366px;
-  width: 100%;
-}
+// }
+// .content {
+//   margin: 1rem auto 0 auto;
+//   max-width: 1366px;
+//   width: 100%;
+// }
 .watched {
   background: #1387a5;
   transition: background 500ms linear;
@@ -37,63 +52,86 @@ p {
   background: #a51313;
   transition: background 500ms linear;  
 }
-li {
-  list-style: none;
-  padding: 10px;
-  display: flex;
-  /* flex-wrap: wrap; */
-  align-items: center;
-  margin-bottom: 10px;
-  color: #d0d0d0;
+.episode{
+  margin-bottom: 1rem;
+
 }
-ul {
-  margin: 0;
-  padding: 0;
+// li {
+//   list-style: none;
+//   padding: 10px;
+//   display: flex;
+//   /* flex-wrap: wrap; */
+//   align-items: center;
+//   margin-bottom: 10px;
+//   color: #d0d0d0;
+// }
+// ul {
+//   margin: 0;
+//   padding: 0;
+// }
+// li h1 {
+//   flex-basis: 10%;
+//   color: goldenrod;
+// }
+// li span:nth-of-type(1) {
+//   flex-basis: 10%;
+// }
+// li span:nth-of-type(3) {
+//   flex-basis: 10%;
+// }
+// li span:nth-of-type(2) {
+//   flex-basis: 80%;
+// }
+// li span:nth-of-type(2) {
+//   /* text-align: right; */
+// }
+// li a {
+//   /* flex-basis: 20%; */
+//   text-align: right;
+// }
+// form input[type="checkbox"] {
+//   display: none;
+// }
+.flash__remove{
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
-li h1 {
-  flex-basis: 10%;
-  color: goldenrod;
-}
-li span:nth-of-type(1) {
-  flex-basis: 10%;
-}
-li span:nth-of-type(3) {
-  flex-basis: 10%;
-}
-li span:nth-of-type(2) {
-  flex-basis: 80%;
-}
-li span:nth-of-type(2) {
-  /* text-align: right; */
-}
-li a {
-  /* flex-basis: 20%; */
-  text-align: right;
-}
-form input[type="checkbox"] {
-  display: none;
-}
-button {
-  text-transform: uppercase;
-  padding: 5px 10px;
-  border-radius: 5px;
+.btn {
+  // text-transform: uppercase;
+  // padding: 5px 10px;
+  // border-radius: 5px;
   border: none;
   color: goldenrod;
   background: #111;
-  font-weight: bold;
-  font-size: 1rem;
+  // font-weight: bold;
+  // font-size: 1rem;
   cursor: pointer;
 }
-.legend {
-  position: absolute;
-  right: 0;
-  top: 0;
-  text-align: right;
+.btn-primary {
+  // border: goldenrod;
 }
-.legend p {
-  padding: 2px 5px;
-  margin: 0;
+.btn-primary:hover {
+  color: #111;
+  background: goldenrod;
 }
-.legend p span {
-  padding: 5px;
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #111;
+  background: goldenrod;
 }
+.btn-primary.disabled, .btn-primary:disabled {
+  background: rgb(110, 110, 110);
+}
+// .legend {
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   text-align: right;
+// }
+// .legend p {
+//   padding: 2px 5px;
+//   margin: 0;
+// }
+// .legend p span {
+//   padding: 5px;
+// }
