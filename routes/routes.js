@@ -6,9 +6,13 @@ const passport = require('passport');
 
 console.log('running middleware from ', __dirname);
 // Middleware
+console.log('grabbing catch errors');
 const { catchErrors } = require('./../handlers/errorHandlers');
+console.log('grabbing episode controller');
 const episodeController = require('./../controllers/episodeController');
+console.log('grabbing auth controller');
 const authController = require('./../controllers/authController');
+console.log('grabbing user controller');
 const userController = require('./../controllers/userController');
 
 // Routing for the home page
