@@ -17,27 +17,6 @@ const userController = require('../controllers/userController');
 // const { login, logout, isLoggedIn } = require('../controllers/authController');
 const authController = require('./../controllers/AuthController');
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Routing for the home page
 router.get('/', function (req, res) {
   res.render('index', { title: 'Hey', message: 'Hello there!' })
