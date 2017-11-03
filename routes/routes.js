@@ -4,7 +4,7 @@ const router = express.Router();
 const mergeJSON = require('merge-json');
 const passport = require('passport');
 
-console.log('running middleware');
+console.log('running middleware from ', __dirname);
 // Middleware
 const authController = require('./../controllers/authController');
 const episodeController = require('./../controllers/episodeController');
