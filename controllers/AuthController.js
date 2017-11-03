@@ -27,5 +27,3 @@ exports.isLoggedIn = (req, res, next ) => {
   req.flash('error', 'Oops, you must be logged in to do that!');
   res.redirect('/login');
 };
-
-module.exports = authController;
