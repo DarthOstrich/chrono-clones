@@ -5,6 +5,7 @@ const mongoose = require('mongoose');
 const promisify = require('es6-promisify');
 const User = mongoose.model('User');
 
+console.log('trying to run passport');
 // Use passport to authenticate local option (email and password)
 exports.login = passport.authenticate('local', {
   failureRedirect: '/login',
