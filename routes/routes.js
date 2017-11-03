@@ -6,10 +6,10 @@ const passport = require('passport');
 
 console.log('running middleware from ', __dirname);
 // Middleware
-const authController = require('./../controllers/authController');
-const episodeController = require('./../controllers/episodeController');
-const userController = require('./../controllers/userController');
 const { catchErrors } = require('./../handlers/errorHandlers');
+const episodeController = require('./../controllers/episodeController');
+const authController = require('./../controllers/authController');
+const userController = require('./../controllers/userController');
 
 // Routing for the home page
 router.get('/', function (req, res) {
