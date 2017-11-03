@@ -10,10 +10,12 @@ console.log('grabbing catch errors');
 const { catchErrors } = require('./../handlers/errorHandlers');
 console.log('grabbing episode controller');
 const episodeController = require('./../controllers/episodeController');
+console.log('grabbing user controller');
+console.log(require('./../controllers/userController'));
+
+const userController = require('./../controllers/userController');
 console.log('grabbing auth controller');
 const authController = require('./../controllers/authController');
-console.log('grabbing user controller');
-const userController = require('./../controllers/userController');
 
 // Routing for the home page
 router.get('/', function (req, res) {

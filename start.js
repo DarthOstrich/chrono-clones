@@ -1,5 +1,5 @@
 console.log('loading start.js');
-console.log(process.versions);
+// console.log(process.versions);
 
 
 // require('./db-connection');
