@@ -1,4 +1,6 @@
 console.log('loading start.js');
+console.log(process.versions);
+
 
 // require('./db-connection');
 const mongoose = require('mongoose');
