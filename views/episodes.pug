@@ -12,10 +12,11 @@ block content
           h1 #{episode.chron_num}
         div.col-8
           h2 #{episode.name} 
+            a(href=`https://www.netflix.com/watch/${episode.netflix_id}` target="_blank")
+              button(class="btn btn-primary" id=`watch-${episode.chron_num}`) watch
           p Season: #{episode.season} Episode Number: #{episode.episode_num}
         div.col
-          a(href=`https://www.netflix.com/watch/${episode.netflix_id}` target="_blank")
-            button(class="btn btn-primary" id=`watch-${episode.chron_num}`) watch
+          
           button(
             class="btn btn-primary" 
             id=`progress-${episode.chron_num}` 

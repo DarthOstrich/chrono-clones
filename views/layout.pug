@@ -11,8 +11,9 @@ html
   body
     block header
       header
-        nav
-          ul.nav.justify-content-end
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.justify-content-between
+          a.navbar-brand(href="/") CWC
+          ul.navbar-nav.justify-content-end
             if !user
               li.nav-item
                 a.nav-link(href="/login") Login
