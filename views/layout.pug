@@ -7,19 +7,20 @@ html
     link(rel='stylesheet', href='/dist/style.css')
     //- link(rel="shortcut icon" type="image/png" href="/images/icons/doughnut.png")
     meta(name="viewport" content="width=device-width, initial-scale=1")
+    script(src="https://www.google.com/recaptcha/api.js")
   body
     block header
       header
-        nav.nav
-          ul
-          if user
-            li
-              a(href="/logout") Logout
-          else
-            li 
-              a(href="/login") Login
-            li
-              a(href="/register") Register
+        nav
+          ul.nav.justify-content-end
+            if !user
+              li.nav-item
+                a.nav-link(href="/login") Login
+              li.nav-item
+                a.nav-link(href="/register") Register
+            else 
+              li.nav-item
+                a.nav-link(href="/logout") Logout
     block messages
       if locals.flashes
         .inner
@@ -29,7 +30,8 @@ html
               each message in flashes[category]
                 .flash.alert.alert-primary(class=`flash--${category}`)
                   p.flash__text!= message
-                  button.btn.btn-sm.flash__remove(onClick="this.parentElement.remove()") &times;
+                  button.close.flash__remove(type="button" aria-label="Close" onClick="this.parentElement.remove()")
+                    span(aria-hidden="true") &times;
     main.container
       block content
     script(src="/dist/App.bundle.js")
