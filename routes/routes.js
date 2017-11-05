@@ -19,9 +19,10 @@ const authController = require('./../controllers/AuthController');
 router.get('/', function (req, res) {
   if (req.user) {
     res.redirect('/episodes')
+  } else {
+    res.render('index', { title: 'Hey', message: 'Hello there!' });
   }
-  res.render('index', { title: 'Hey', message: 'Hello there!' })
-})
+});
 
 // Routing for the episodes page
 router.get('/episodes', 
