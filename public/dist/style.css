@@ -7,6 +7,10 @@ nav {
 .container {
   margin-top: 1rem; }
 
+#index {
+  background: #111;
+  color: #f2f2f2; }
+
 h1 {
   color: goldenrod; }
 

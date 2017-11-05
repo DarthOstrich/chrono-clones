@@ -8,7 +8,8 @@ html
     //- link(rel="shortcut icon" type="image/png" href="/images/icons/doughnut.png")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     script(src="https://www.google.com/recaptcha/api.js")
-  body
+  body(id=(locals.currentPath == "/" ? "index" : "app"))
+    //- =JSON.stringify(locals.currentPath)
     block header
       header
         nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.justify-content-between
@@ -20,6 +21,8 @@ html
               li.nav-item
                 a.nav-link(href="/register") Register
             else 
+              li.nav-item
+                a.nav-link(href="/episodes") Episodes
               li.nav-item
                 a.nav-link(href="/logout") Logout
     block messages
