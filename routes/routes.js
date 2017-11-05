@@ -17,10 +17,9 @@ const authController = require('./../controllers/AuthController');
 
 // Routing for the home page
 router.get('/', function (req, res) {
-  // this doesn't work on deploy for some reason...
-  // if (authController.isLoggedIn) {
-  //   res.redirect('/episodes');
-  // }
+  if (req.user) {
+    res.redirect('/episodes')
+  }
   res.render('index', { title: 'Hey', message: 'Hello there!' })
 })
 
