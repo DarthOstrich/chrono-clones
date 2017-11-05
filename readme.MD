@@ -3,11 +3,16 @@
 ## Overview
 Application built to make tracking what episodes of Clone Wars in Chronological order you've watched.
 
-### Deployment
-Deployed to AWS Elastic Beanstalk
-
 ### Needed to work
 variables.env file, see variables.env.sample file
+
+### Backend
+
+### Frontend
+I was lazy and built it in bootstrap 💩
+
+### Deployment
+Deployed to AWS Elastic Beanstalk
 
 ## Todo 
 * Forgot username/password stuff
