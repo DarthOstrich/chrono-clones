@@ -15,16 +15,17 @@ variables.env file, see variables.env.sample file
 
 ### Frontend
 * I was lazy and built it in bootstrap 💩
-* Sass (For the bits I did built)
+* Sass (For the bits I did build)
 * Webpack
 
 ### Deployment
-Deployed to AWS Elastic Beanstalk
+Deployed to AWS Elastic Beanstalk but could probably work with heroku
 
 ## Todo 
 * Forgot username/password stuff
 * FB integration
 * Okta Integration?
+* add in 404
 
 ## Mad Props to
 
@@ -33,3 +34,9 @@ Deployed to AWS Elastic Beanstalk
 [CSV 2 JSON](http://www.csvjson.com/csv2json)
 
 [learn node by Wes Bos](http://learnnode.com)
+
+# Notes
+To get rid of dev dependencies in production:
+```
+npm prune --production
+```
