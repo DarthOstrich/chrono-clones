@@ -23,9 +23,11 @@ Deployed to AWS Elastic Beanstalk but could probably work with heroku
 
 ## Todo 
 * Forgot username/password stuff
+  * AWS SES to send mail
 * FB integration
 * Okta Integration?
 * add in 404
+* favicon
 
 ## Mad Props to
 
