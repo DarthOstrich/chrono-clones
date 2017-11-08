@@ -15,7 +15,9 @@ const userSchema = new Schema({
     trim: true,
     validate: [validator.isEmail, 'Invalid Email Address'],
     required: 'Please supply an e-mail address'
-  }
+  },
+  resetPasswordToken: String,
+  resetPasswordExpires: Date 
 });
 
 userSchema.plugin(passportLocalMongoose, { usernameField: 'email' });

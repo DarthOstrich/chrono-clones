@@ -17,11 +17,11 @@ const authController = require('./../controllers/AuthController');
 
 // Routing for the home page
 router.get('/', function (req, res) {
-  if (req.user) {
-    res.redirect('/episodes')
-  } else {
+  // if (req.user) {
+  //   res.redirect('/episodes')
+  // } else {
     res.render('index', { title: 'Hey', message: 'Hello there!' });
-  }
+  // }
 });
 
 // Routing for the episodes page
@@ -45,6 +45,14 @@ router.post('/login', authController.login); //Uses the authController middlewar
 // Routing for facebook authentication
 router.get('/login/facebook',
   passport.authenticate('facebook')
+);
+
+// routing for forgetting password
+router.post('/account/forgot', catchErrors(authController.forgot));
+router.get('/account/reset/:token', catchErrors(authController.reset));
+router.post('/account/reset/:token', 
+  authController.confirmedPasswords, 
+  catchErrors(authController.update)
 );
 
 // when it comes back from facebook, it will redirect here

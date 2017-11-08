@@ -8,6 +8,7 @@ const MongoStore = require('connect-mongo')(session);
 const flash = require('connect-flash'); // allows flash messages
 const morgan = require('morgan'); // renders requests to the server
 const cookieParser = require('cookie-parser');
+const promisify = require('es6-promisify');
 const bodyParser = require('body-parser');
 const expressValidator = require('express-validator');
 const errorHandlers = require('./handlers/errorHandlers'); // handles all our errors
@@ -65,6 +66,12 @@ app.use((req, res, next) => {
   res.locals.flashes = req.flash();
   res.locals.user = req.user || null;
   res.locals.currentPath = req.path;
+  next();
+});
+
+// promisify some callback based APIs
+app.use((req, res, next) => {
+  req.login = promisify(req.login, req);
   next();
 });
 
