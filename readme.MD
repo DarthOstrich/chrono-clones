@@ -12,6 +12,7 @@ variables.env file, see variables.env.sample file
 * Express
 * Pug
 * Tons of packages - See the package.json
+* Mailgun to send mail for password reset flow
 
 ### Frontend
 * I was lazy and built it in bootstrap 💩
@@ -22,12 +23,7 @@ variables.env file, see variables.env.sample file
 Deployed to AWS Elastic Beanstalk but could probably work with heroku
 
 ## Todo 
-* Forgot username/password stuff
-  * AWS SES to send mail
-* FB integration
 * Okta Integration?
-* add in 404
-* favicon
 
 ## Mad Props to
 
