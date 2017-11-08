@@ -8,15 +8,15 @@ block content
   div#episode-list
     each episode in episodes
       div(class="episode row align-items-center" class=episode.watched && 'watched' class=!episode.watched && 'unwatched' id=`episode-${episode.chron_num}`)
-        div.col-2
+        div.col-2.col-md-1
           h1 #{episode.chron_num}
-        div.col-10
+        div.col-10.col-md-8
           h2 #{episode.name} 
             a(href=`https://www.netflix.com/watch/${episode.netflix_id}` target="_blank")
               button(class="btn btn-primary" id=`watch-${episode.chron_num}`) watch
           p Season: #{episode.season} Episode Number: #{episode.episode_num}
-        div.col-sm
-          button(
+        div(class=" col col-md-2" style="text-align: center")
+            button(
             class="btn btn-primary" 
             id=`progress-${episode.chron_num}` 
             type="submit") Change Progress
